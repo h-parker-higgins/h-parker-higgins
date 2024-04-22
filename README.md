@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hi there, I'm Parker Higgins 👋
+- Let's deliver value to those that serve, together. 
+- Lover of all things tech, and [Home Assistant](https://github.com/home-assistant). Nerds are cool.
+- Professionally,  can be reached at [parker@wesalute.com](mailto:parker@wesalute.com) or [book a time with me!](https://calendly.com/parkerhiggins/30min)
+- Personally, I can be reached at [parker@parkerhiggins.com](mailto:parker@parkerhiggins.com) 
 
 <!--
 **h-parker-higgins/h-parker-higgins** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
