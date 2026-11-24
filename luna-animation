@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    
+    <mask id="m0"><circle r="18" fill="white" /><circle cx="0" cy="-7" r="16" fill="black" /></mask>
+    <mask id="m1"><circle r="18" fill="white" /><circle cx="6" cy="-6" r="15" fill="black" /></mask>
+    <mask id="m2"><circle r="18" fill="white" /><circle cx="9" cy="-2" r="14" fill="black" /></mask>
+    <mask id="m3"><circle r="18" fill="white" /><circle cx="-13" cy="0" r="10" fill="black" /></mask>
+    <mask id="m4"><circle r="18" fill="white" /><circle cx="-11" cy="-3" r="11" fill="black" /></mask>
+    <mask id="m5"><circle r="18" fill="white" /><circle cx="-6" cy="-7" r="12" fill="black" /></mask>
+    <mask id="m6"><circle r="18" fill="white" /><circle cx="0" cy="-9" r="13" fill="black" /></mask>
+    <mask id="m7"><circle r="18" fill="white" /><circle cx="5" cy="-8" r="14" fill="black" /></mask>
+    <mask id="m8"><circle r="18" fill="white" /><circle cx="8" cy="-5" r="15" fill="black" /></mask>
+    <mask id="m9"><circle r="18" fill="white" /><circle cx="9" cy="0" r="16" fill="black" /></mask>
+    <mask id="m10"><circle r="18" fill="white" /><circle cx="7" cy="4" r="16.5" fill="black" /></mask>
+    <mask id="m11"><circle r="18" fill="white" /><circle cx="2" cy="-5" r="17" fill="black" /></mask>
+  </defs>
+
+  <style>
+    .bg { fill: #121212; }
+    .phase {
+      opacity: 0.35;
+      animation: pulse 7.2s ease-in-out infinite;
+    }
+    .p0  { animation-delay: 0.0s; }
+    .p1  { animation-delay: 0.6s; }
+    .p2  { animation-delay: 1.2s; }
+    .p3  { animation-delay: 1.8s; }
+    .p4  { animation-delay: 2.4s; }
+    .p5  { animation-delay: 3.0s; }
+    .p6  { animation-delay: 3.6s; }
+    .p7  { animation-delay: 4.2s; }
+    .p8  { animation-delay: 4.8s; }
+    .p9  { animation-delay: 5.4s; }
+    .p10 { animation-delay: 6.0s; }
+    .p11 { animation-delay: 6.6s; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.35; transform: scale(0.96); }
+      20%      { opacity: 1.0;  transform: scale(1.06); }
+      45%      { opacity: 0.45; transform: scale(0.98); }
+    }
+  </style>
+
+  
+  <rect class="bg" width="400" height="400" rx="16" />
+
+  
+  <g filter="url(#glow)">
+    <g transform="translate(200, 82)"><g class="phase p0"><circle r="18" fill="#f5f5f4" mask="url(#m0)" /></g></g>
+    <g transform="translate(259, 98)"><g class="phase p1"><circle r="18" fill="#fef3c7" mask="url(#m1)" /></g></g>
+    <g transform="translate(302, 141)"><g class="phase p2"><circle r="18" fill="#fde68a" mask="url(#m2)" /></g></g>
+    <g transform="translate(318, 200)"><g class="phase p3"><circle r="18" fill="#d99b66" mask="url(#m3)" /></g></g>
+    <g transform="translate(302, 259)"><g class="phase p4"><circle r="18" fill="#eab676" mask="url(#m4)" /></g></g>
+    <g transform="translate(259, 302)"><g class="phase p5"><circle r="18" fill="#fcd34d" mask="url(#m5)" /></g></g>
+    <g transform="translate(200, 318)"><g class="phase p6"><circle r="18" fill="#fde68a" mask="url(#m6)" /></g></g>
+    <g transform="translate(141, 302)"><g class="phase p7"><circle r="18" fill="#fef08a" mask="url(#m7)" /></g></g>
+    <g transform="translate(98, 259)"><g class="phase p8"><circle r="18" fill="#fef3c7" mask="url(#m8)" /></g></g>
+    <g transform="translate(82, 200)"><g class="phase p9"><circle r="18" fill="#f5f5f4" mask="url(#m9)" /></g></g>
+    <g transform="translate(98, 141)"><g class="phase p10"><circle r="18" fill="#fafaf9" mask="url(#m10)" /></g></g>
+    <g transform="translate(141, 98)"><g class="phase p11"><circle r="18" fill="#e7e5e4" mask="url(#m11)" /></g></g>
+  </g>
+</svg>
